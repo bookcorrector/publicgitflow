@@ -13,7 +13,7 @@ func_to_test(sys.argv[1], sys.argv[2])
 
 def newfunc(farg1, sarg1):
     print(farg[0:3])
-    print(sarg[0:2])
+    print(sarg[0:4])
 
 newfunc("Onbir", sys.argv[1])
 
