@@ -12,9 +12,9 @@ func_to_test("Salam", "saqol")
 func_to_test(sys.argv[1], sys.argv[2])
 
 def newfunc(farg1, sarg1):
-    print(farg[0:3])
-    print(sarg[0:4])
+    print(farg1[0:3])
+    print(sarg1[0:4])
 
-newfunc("Onbir", sys.argv[1])
+newfunc(sys.argv[2], sys.argv[1])
 
 
