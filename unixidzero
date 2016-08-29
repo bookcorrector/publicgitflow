@@ -2,13 +2,12 @@
 
 # This is unixidzero script file
 
-for i in `seq 10`
-do
-    echo "$i defe salam"
-done
-
-
 for c in $(seq 5)
 do
     echo "$c count print"
+done
+
+for d in $(seq 6)
+do
+    echo "$d sayda print"
 done
