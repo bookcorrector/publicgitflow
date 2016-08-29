@@ -1,2 +1,12 @@
-Added from jamal
-Added second line from jamalshahverdiev
+#!/usr/bin/env python
+
+import sys
+
+a="salam"
+
+def func_to_test(arg1, arg2):
+    print("First argument will be printed: "+arg1)
+    print("Second argument will be printed: "+arg2)
+
+func_to_test("Salam", "saqol")
+func_to_test(sys.argv[1], sys.argv[2])
