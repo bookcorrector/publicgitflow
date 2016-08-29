@@ -9,4 +9,4 @@ def func_to_test(arg1, arg2):
     print("Second argument will be printed: "+arg2)
 
 func_to_test("Salam", "saqol")
-func_to_test(sys.argv[1], sys.argv[2])
+func_to_test(sys.argv[1], "ikinci arqument")
