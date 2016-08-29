@@ -1,2 +1,8 @@
-Added as unixidzero user
-Added from jamalshahverdiev
+#!/usr/bin/env bash
+
+# This is unixidzero script file
+
+for i in `seq 10`
+do
+    echo "$i defe salam"
+done
