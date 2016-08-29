@@ -15,6 +15,6 @@ def newfunc(farg1, sarg1):
     print(farg[0:3])
     print(sarg[0:2])
 
-newfunc("Onbir", "Oniki")
+newfunc("Onbir", sys.argv[1])
 
 
